@@ -19,12 +19,26 @@ Commercial users get a special URL with their customer id. Only the commercial U
 ~~~
 go get github.com/unidoc/unidoc
 ~~~
+## About
+
+Unidoc is a free software document editing library, originally produced by FoxyUtils.
+
+It was licensed under the AGPL, with additional terms that were not compatible with the AGPL;
+in this fork, I have removed those terms, as the AGPL explicitly allows (so, as the authors
+therefore explicitly permitted me to do, under the AGPL license).
+
+I doubt they will merge these changes, but I'm happy to receive PRs here from others who wish
+to collaborate on a Free Software document library for Go. I invite the Unidoc authors, however,
+to consider revising their non-free stance, and to merge these edits and proceed under an AGPL
+license. Restrictions and anti-customer measures are not required for a thriving enterprise.
+
+Except for judicious deletions in keeping with the above, the below is a reproduction of the
+original readme:
 
 ## Overview
 
  * Many [features](http://unidoc.io/features) with documented examples.
  * Self contained with no external dependencies
- * Developer friendly
 
 ## Roadmap
 
@@ -40,23 +54,8 @@ UniDoc is licensed as [AGPL][agpl] software (with extra terms as specified in ou
 
 AGPL is a free / open source software license.
 
-This doesn't mean the software is gratis!
-
-Buying a license is mandatory as soon as you develop commercial activities
-distributing the UniDoc software inside your product or deploying it on a network
-without disclosing the source code of your own applications under the AGPL license.
-These activities include:
-
- * developing commercial applications
- * offering paid services to customers as an application service provider
- * serving PDFs on the fly in the cloud or in a web application
- * shipping UniDoc with a closed source product
-
+Unidoc is also available under a license that may permit non-free activities.
 Contact sales for more info: sales@unidoc.io.
-
-## Contributing
-
-Contributors need to approve the [Contributor License Agreement](https://docs.google.com/a/owlglobal.io/forms/d/1PfTjEAi67-x0JOTU45SDonJnWy1fWB_J1aopGss34bY/viewform) before any code will be reviewed. Preferably add a test case to make sure there is no regression and that the new behaviour is as expected.
 
 ## Support
 
@@ -68,4 +67,3 @@ Please email us at support@unidoc.io for any queries.
 * Sign-up for our [newsletter](http://eepurl.com/b9Idt9)
 
 [agpl]: LICENSE.md
-[contributing]: CONTRIBUTING.md
